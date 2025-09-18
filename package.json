@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "mockaway": "node mockaway-server.js",
-    "dev:full": "concurrently \"npm run mockaway\" \"npm run dev\""
+    "dev:full": "concurrently \"npm run mockaway\" \"npm run dev\"",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

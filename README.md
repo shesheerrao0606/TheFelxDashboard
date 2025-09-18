@@ -153,6 +153,29 @@ src/
 - `src/utils/hostawayTransformer.ts` - Data transformation utilities
 - `src/utils/reviewStatusManager.ts` - Review approval management
 
+## Deployment
+
+### Vercel Deployment
+
+The application is configured for easy deployment on Vercel:
+
+1. **Connect Repository**: Link your GitHub repository to Vercel
+2. **Environment Variables**: Set `VITE_MOCKAWAY_API_KEY` in Vercel dashboard
+3. **Build Settings**: Vercel will automatically detect the Vite configuration
+4. **Deploy**: Click deploy and your app will be live!
+
+**Vercel Configuration:**
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
+
+**Environment Variables for Vercel:**
+```
+VITE_MOCKAWAY_API_KEY=demo-api-key-12345
+```
+
+**Note**: The Mockaway API server runs locally. For production, you'll need to deploy the backend separately or use a real API.
+
 ## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite
@@ -162,3 +185,4 @@ src/
 - **Routing**: React Router DOM
 - **Icons**: Lucide React
 - **Build Tool**: Vite
+- **Deployment**: Vercel-ready
