@@ -1,0 +1,22 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- House icon with 'f' inside -->
+  <g transform="translate(10, 10)">
+    <!-- House outline -->
+    <path d="M0 30 L15 15 L30 30 L30 40 L0 40 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Letter 'f' inside house -->
+    <g transform="translate(8, 20)">
+      <!-- Vertical stem of 'f' -->
+      <line x1="7" y1="0" x2="7" y2="15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Top horizontal bar of 'f' -->
+      <line x1="7" y1="2" x2="12" y2="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Middle horizontal bar of 'f' -->
+      <line x1="7" y1="8" x2="10" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- "the flex." text -->
+  <text x="50" y="35" font-family="serif" font-size="18" font-weight="300" fill="currentColor">
+    the flex.
+  </text>
+</svg>

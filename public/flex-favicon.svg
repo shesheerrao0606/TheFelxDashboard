@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- House icon with 'f' inside -->
+  <g transform="translate(4, 4)">
+    <!-- House outline -->
+    <path d="M0 16 L12 4 L24 16 L24 24 L0 24 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Letter 'f' inside house -->
+    <g transform="translate(6, 8)">
+      <!-- Vertical stem of 'f' -->
+      <line x1="6" y1="0" x2="6" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Top horizontal bar of 'f' -->
+      <line x1="6" y1="1" x2="10" y2="1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Middle horizontal bar of 'f' -->
+      <line x1="6" y1="6" x2="8" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
